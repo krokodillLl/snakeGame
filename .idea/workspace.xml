@@ -6,7 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f594b7ed-d0fd-4766-8ac2-9d58ddc41fbf" name="Default Changelist" comment="" />
+    <list default="true" id="f594b7ed-d0fd-4766-8ac2-9d58ddc41fbf" name="Default Changelist" comment="исправлена проблема с поеданием яблока у барьера">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/GameField$FieldKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/GameField$FieldKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/GameField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/META-INF/SnakeGame.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/result.dat" beforeDir="false" afterPath="$PROJECT_DIR$/resources/result.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameField.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +41,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1OUzn6CSgSzgvjJbDDiDX9cJWC6" />
   <component name="PropertiesComponent">
     <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/star.png" />
@@ -91,10 +116,26 @@
       <workItem from="1564915557697" duration="414000" />
       <workItem from="1564940351525" duration="586000" />
       <workItem from="1564943242612" duration="1723000" />
+      <workItem from="1567094757756" duration="465000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="исправлена проблема с поеданием яблока у барьера" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправлена проблема с поеданием яблока у барьера" />
   </component>
 </project>

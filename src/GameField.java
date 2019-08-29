@@ -50,7 +50,7 @@ public class GameField extends JPanel implements ActionListener {
         createApple(); // создаем яблоко
     }
 
-    public void initGame() {
+    private void initGame() {
          left = false;
          right = true;
          up = false;
@@ -210,7 +210,7 @@ public class GameField extends JPanel implements ActionListener {
 
          // Прорисовка окна в зависимости от выбранного режима игры
 
-         if(OptionsMenu.withoutBarriers.isSelected()) {} // если выбран вариант без барьеров, то никакой дополнительной прорисовки
+         // если выбран вариант без барьеров, то никакой дополнительной прорисовки
          if(OptionsMenu.verticalBarriers.isSelected()) { // если выбран варинат с вертикальными барьерами, то отрисовываем вертикальные барьеры
              for (int i = 0; i < SIZE; i+= DOT_SIZE) {
                  g.drawImage(borderIcon, i, 0, this);
@@ -398,8 +398,8 @@ public class GameField extends JPanel implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) { // метод, вызываемвый при прослушивании
         if(inGame) { // если в игре
-            checkApple(); // проверяем, не встретилась ли змея с яблоком
             checkCollisions(); // проверяем, не встретилась ли змея с препятствием
+            checkApple(); // проверяем, не встретилась ли змея с яблоком
             move(); // метод для передвигания змейки
             if(slowlyApple || speedApple) { // при каждой остановке таймера, если яблоко создано, его время жизни уменьшается
                 timeFTUA--;
