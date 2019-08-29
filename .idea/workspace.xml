@@ -6,27 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f594b7ed-d0fd-4766-8ac2-9d58ddc41fbf" name="Default Changelist" comment="исправлена проблема с поеданием яблока у барьера">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f594b7ed-d0fd-4766-8ac2-9d58ddc41fbf" name="Default Changelist" comment="изменены размеры окна под Java 12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/GameField$FieldKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/GameField$FieldKeyListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/GameField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/META-INF/SnakeGame.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/result.dat" beforeDir="false" afterPath="$PROJECT_DIR$/resources/result.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +102,16 @@
       <workItem from="1564940351525" duration="586000" />
       <workItem from="1564943242612" duration="1723000" />
       <workItem from="1567094757756" duration="465000" />
+      <workItem from="1567095265641" duration="879000" />
     </task>
+    <task id="LOCAL-00001" summary="исправлена проблема с поеданием яблока у барьера">
+      <created>1567095407540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567095407541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +122,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -136,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="исправлена проблема с поеданием яблока у барьера" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправлена проблема с поеданием яблока у барьера" />
+    <MESSAGE value="изменены размеры окна под Java 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменены размеры окна под Java 12" />
   </component>
 </project>
