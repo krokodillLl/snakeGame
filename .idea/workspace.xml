@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f594b7ed-d0fd-4766-8ac2-9d58ddc41fbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f594b7ed-d0fd-4766-8ac2-9d58ddc41fbf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/star.png" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -99,6 +97,7 @@
       <workItem from="1564943242612" duration="1723000" />
       <workItem from="1567094757756" duration="465000" />
       <workItem from="1567095265641" duration="1494000" />
+      <workItem from="1567238704951" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="исправлена проблема с поеданием яблока у барьера">
       <created>1567095407540</created>
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567096162353</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="окусировка на окна при их открытии">
+      <created>1567238860734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567238860734</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="исправлена проблема с поеданием яблока у барьера" />
     <MESSAGE value="изменены размеры окна под Java 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменены размеры окна под Java 12" />
+    <MESSAGE value="окусировка на окна при их открытии" />
+    <option name="LAST_COMMIT_MESSAGE" value="окусировка на окна при их открытии" />
   </component>
 </project>
