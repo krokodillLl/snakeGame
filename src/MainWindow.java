@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.io.IOException;
 
- class MainWindow extends JFrame {
-     MainWindow() throws IOException {
+public class MainWindow extends JFrame {
+    public MainWindow() throws IOException {
         setTitle("Змейка");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(336, 365);
