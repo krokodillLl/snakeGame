@@ -21,6 +21,7 @@ public class RecordsMenu extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); // закрывает на крестик
         setSize(336, 365);
         setLocation(MainMenu.locationWindow);
+        setFocusable(true);
         loadImages();
 
         recordsPanel = new JPanel() {  // объект панели для компановки элементов, переопределение метода отрисовки через анонимный класс

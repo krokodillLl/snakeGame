@@ -27,6 +27,7 @@ public class MainMenu extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); // закрытие на крестик
         setSize(336, 365); // размеры окна
         setLocation(locationWindow);
+        setFocusable(true);
         loadImages();
 
         mainMenuPanel = new JPanel() { // панель для компановки элементов, переопределение метода отрисовки через анонимный класс

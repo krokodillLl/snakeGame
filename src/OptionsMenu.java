@@ -28,6 +28,7 @@ public class OptionsMenu  extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(336, 365);
         setLocation(MainMenu.locationWindow);
+        setFocusable(true);
 //        loadImages();
 
         optionsPanel = new JPanel(); // создали панель для компановки элементов выбора карты
