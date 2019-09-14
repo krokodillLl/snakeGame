@@ -1,62 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="SnakeGame:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f594b7ed-d0fd-4766-8ac2-9d58ddc41fbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/GameField$FieldKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/GameField$FieldKeyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/GameField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/OptionsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/RecordsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/result.dat" beforeDir="false" afterPath="$PROJECT_DIR$/resources/result.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.java" afterDir="false" />
-    </list>
+    <list default="true" id="65ed76ba-ad09-4a7c-aa49-c38137b08ae9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1OUzn6CSgSzgvjJbDDiDX9cJWC6" />
+  <component name="ProjectId" id="1QCNGUoTFz9MwcTNsDojpjy3dTe" />
   <component name="PropertiesComponent">
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/star.png" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/catch_the_drop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kiril\IdeaProjects\SnakeGame" />
+      <recent name="F:\programming\SnakeWithMaven" />
+      <recent name="F:\programming\SnakeWithMaven\src\results" />
+      <recent name="F:\programming\SnakeWithMaven\target" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,6 +58,8 @@
   </component>
   <component name="RunManager">
     <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="MainMenu" />
       <module name="SnakeGame" />
       <method v="2">
@@ -90,84 +77,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f594b7ed-d0fd-4766-8ac2-9d58ddc41fbf" name="Default Changelist" comment="" />
-      <created>1564047126610</created>
+      <changelist id="65ed76ba-ad09-4a7c-aa49-c38137b08ae9" name="Default Changelist" comment="" />
+      <created>1567270522939</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564047126610</updated>
-      <workItem from="1564047127945" duration="10975000" />
-      <workItem from="1564060922595" duration="1070000" />
-      <workItem from="1564083620047" duration="1074000" />
-      <workItem from="1564092499587" duration="240000" />
-      <workItem from="1564134947137" duration="2893000" />
-      <workItem from="1564156230564" duration="2756000" />
-      <workItem from="1564171201166" duration="205000" />
-      <workItem from="1564232677942" duration="13656000" />
-      <workItem from="1564255719177" duration="4707000" />
-      <workItem from="1564563128859" duration="11677000" />
-      <workItem from="1564777778539" duration="8049000" />
-      <workItem from="1564823716481" duration="6206000" />
-      <workItem from="1564861482733" duration="6246000" />
-      <workItem from="1564909404374" duration="5583000" />
-      <workItem from="1564915344175" duration="60000" />
-      <workItem from="1564915557697" duration="414000" />
-      <workItem from="1564940351525" duration="586000" />
-      <workItem from="1564943242612" duration="1723000" />
-      <workItem from="1567094757756" duration="465000" />
-      <workItem from="1567095265641" duration="1494000" />
-      <workItem from="1567238704951" duration="1301000" />
+      <updated>1567270522939</updated>
+      <workItem from="1567270525056" duration="848000" />
+      <workItem from="1568451860232" duration="6246000" />
     </task>
-    <task id="LOCAL-00001" summary="исправлена проблема с поеданием яблока у барьера">
-      <created>1567095407540</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1567095407541</updated>
-    </task>
-    <task id="LOCAL-00002" summary="изменены размеры окна под Java 12">
-      <created>1567096162353</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1567096162353</updated>
-    </task>
-    <task id="LOCAL-00003" summary="окусировка на окна при их открытии">
-      <created>1567238860734</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1567238860734</updated>
-    </task>
-    <task id="LOCAL-00004" summary="окусировка на окна при их открытии">
-      <created>1567239160984</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1567239160984</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="исправлена проблема с поеданием яблока у барьера" />
-    <MESSAGE value="изменены размеры окна под Java 12" />
-    <MESSAGE value="окусировка на окна при их открытии" />
-    <option name="LAST_COMMIT_MESSAGE" value="окусировка на окна при их открытии" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GameField.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RecordsMenu.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RecordsMenu.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

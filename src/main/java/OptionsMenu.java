@@ -1,10 +1,7 @@
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 import java.io.IOException;
 
 public class OptionsMenu  extends JFrame {
@@ -104,9 +101,5 @@ public class OptionsMenu  extends JFrame {
         mainMenuButton.addActionListener(mainMenuButtonListener); // подключаем прослушку к кнопке
     }
 
-//    private void loadImages() {
-//        ImageIcon optionsScreenImage = new ImageIcon("resources\\optionsScreen.png");
-//        optionsScreen = optionsScreenImage.getImage();
-//    }
 
 }

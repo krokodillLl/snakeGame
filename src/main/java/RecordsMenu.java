@@ -1,3 +1,4 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -5,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Objects;
 
 public class RecordsMenu extends JFrame {
 
@@ -15,6 +17,7 @@ public class RecordsMenu extends JFrame {
     private BufferedWriter fileWriter;
     private Image scoreScreen; // задник для окна с рекордами
     private ArrayList<Integer> records = new ArrayList<Integer>();
+    private String url = "results" + File.separator + "result.dat";
 
     public RecordsMenu() throws IOException {
         setTitle("Меню рекордов"); // заголовок окна
@@ -40,7 +43,7 @@ public class RecordsMenu extends JFrame {
 
         sortRecords(); // метод, в котором сортируются рекорды и отбирается 10 самых лучших
 
-        fileReader = new BufferedReader(new FileReader("resources\\result.dat")); // объект для чтения рекордов
+        fileReader = new BufferedReader(new FileReader(url)); // объект для чтения рекордов
         int i = 1;
         while(fileReader.ready()) { // вывод в поле
             if(i != 10) { // чтобы выровнять результаты
@@ -78,14 +81,14 @@ public class RecordsMenu extends JFrame {
     }
 
     private void sortRecords() throws IOException { // сортировка рекордов
-        fileReader = new BufferedReader(new FileReader("resources\\result.dat")); // объект для чтения рекордов
+        fileReader = new BufferedReader(new FileReader(url)); // объект для чтения рекордов
 
         while (fileReader.ready()) { // пока в файле есть строки
                 records.add(Integer.parseInt(fileReader.readLine())); // вносим в лист все значения
             }
 
         fileReader.close(); // закрываем чтение
-        fileWriter = new BufferedWriter(new FileWriter("resources\\result.dat")); // объект для перезаписи списка рекордов
+        fileWriter = new BufferedWriter(new FileWriter(url)); // объект для перезаписи списка рекордов
 
         Collections.sort(records); // сортируем рекорды
         if(records.size() > 10) { // если рекордов больше 10, то записываем обратно в файл только 10
@@ -102,9 +105,8 @@ public class RecordsMenu extends JFrame {
         fileWriter.close(); // закрываем поток записи
     }
 
-    private void loadImages() {
-        ImageIcon scoreScreenImage = new ImageIcon("resources\\scoreScreen.png"); // картинка для меню очков
-        scoreScreen = scoreScreenImage.getImage();
+    private void loadImages() throws IOException {
+        scoreScreen = ImageIO.read(Objects.requireNonNull(RecordsMenu.class.getClassLoader().getResourceAsStream("scoreScreen.png"))); // картинка для меню очков
     }
 
 }

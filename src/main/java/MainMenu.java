@@ -1,8 +1,10 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.util.Objects;
 
 public class MainMenu extends JFrame {
 
@@ -19,7 +21,7 @@ public class MainMenu extends JFrame {
         }
     }
 
-    protected static MainWindow gameWindow; // статический класс для того, чтобы отключать окно при смерти змеи
+    public static MainWindow gameWindow; // статический класс для того, чтобы отключать окно при смерти змеи
 
 
     public MainMenu() throws IOException {
@@ -48,7 +50,7 @@ public class MainMenu extends JFrame {
         System.out.println("Запуск главного меню"); // консольный вывод
 
         ActionListener startGameListener = new ActionListener() { // обработка нажатия newGame
-            @Override
+
             public void actionPerformed(ActionEvent e) {
                 try {
                     locationWindow = getLocation(); // передаем последние координаты окна при закрытии
@@ -63,7 +65,7 @@ public class MainMenu extends JFrame {
         newGame.addActionListener(startGameListener); // включаем прослушку кнопки newGame
 
         ActionListener exitGameListener = new ActionListener() { // обработка нажатия выхода из игры
-            @Override
+
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
             }
@@ -71,7 +73,7 @@ public class MainMenu extends JFrame {
         exit.addActionListener(exitGameListener); // прослушка кнопки выхода
 
         ActionListener recordsListener = new ActionListener() { // обработка кнопки с рекордами
-            @Override
+
             public void actionPerformed(ActionEvent e) {
                 try {
                     locationWindow = getLocation(); // передаем последние координаты окна при закрытии
@@ -85,7 +87,7 @@ public class MainMenu extends JFrame {
         records.addActionListener(recordsListener); // прослушка кнопки с рекордами
 
         ActionListener optionsListener = new ActionListener() {
-            @Override
+
             public void actionPerformed(ActionEvent e) { // обработка кнопки с опциями
           locationWindow = getLocation(); // последние координаты окна
           new OptionsMenu(); // объект окна с опциями
@@ -95,9 +97,8 @@ public class MainMenu extends JFrame {
         options.addActionListener(optionsListener); // прослушка кнопки с опциями
     }
 
-    private void loadImages() {
-        ImageIcon mainScreenImage = new ImageIcon("resources\\mainScreen.png"); // картинка для главного меню
-        mainScreen = mainScreenImage.getImage(); // присваиваем картинку объекту
+    private void loadImages() throws IOException {
+        mainScreen = ImageIO.read(Objects.requireNonNull(MainMenu.class.getClassLoader().getResourceAsStream("mainScreen.png"))); // картинка для главного меню
     }
 
     public static void main(String[] args) throws IOException {

@@ -1,3 +1,4 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -5,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.io.*;
+import java.util.Objects;
 import java.util.Random;
 
 public class GameField extends JPanel implements ActionListener {
@@ -38,8 +40,7 @@ public class GameField extends JPanel implements ActionListener {
     private boolean speedApple = false; // индикатор, активно ли ускоряющее яблоко
     private boolean slowlyApple = false; // индикатор, активно ли замедляющее яблоко
     private int timeFTUA = 25; // время для необычного яблока, прежде чем его не станет
-    private BufferedWriter fileWriter = new BufferedWriter(new FileWriter("resources\\result.dat", true)); // для записи результата игры
-
+    private String url = "results" + File.separator + "result.dat";
     public GameField() throws IOException {
         loadImages(); // загрузка изображений в начале игры
         startTimer(); // запуск таймера для отслеживания действий
@@ -47,6 +48,7 @@ public class GameField extends JPanel implements ActionListener {
         addKeyListener(new FieldKeyListener()); // добавляем прослушку нажатий клавишь
         setFocusable(true); // установка фокуса на игровом поле
         setPreferredSize(new Dimension(SIZE, SIZE)); // добавил, чтобы не выходило за пределы окна
+        setFocusable(true);
         createApple(); // создаем яблоко
     }
 
@@ -175,21 +177,14 @@ public class GameField extends JPanel implements ActionListener {
         }
     }
 
-    private void loadImages() { // метод для загрузки картинок
-        ImageIcon appleImage = new ImageIcon("resources\\plus.png"); // загружаем картинку в объект
-        ImageIcon dotImage = new ImageIcon("resources\\star.png"); // аналогично с дотом (частью) змеи
-        ImageIcon slowlyDotImage = new ImageIcon("resources\\slowly.png"); // картинка для замедления
-        ImageIcon speedDotImage = new ImageIcon("resources\\speed.png"); // картинка для ускорения
-        ImageIcon backendGameImage = new ImageIcon("resources\\backendGame.png"); // картинка для задника игры
-        ImageIcon gameOverImage = new ImageIcon("resources\\gameOver.png"); // заставка конца игры
-        ImageIcon borderIconImage = new ImageIcon("resources\\borderIcon.png"); // артинка для бордюра
-        apple = appleImage.getImage(); // передаем в объект аппле
-        dot = dotImage.getImage();
-        slowlyDot = slowlyDotImage.getImage();
-        speedDot = speedDotImage.getImage();
-        backendGame = backendGameImage.getImage();
-        gameOver = gameOverImage.getImage();
-        borderIcon = borderIconImage.getImage();
+    private void loadImages() throws IOException { // метод для загрузки картинок
+         apple = ImageIO.read(Objects.requireNonNull(GameField.class.getClassLoader().getResourceAsStream("plus.png"))); // загружаем картинку в объект
+         dot = ImageIO.read(Objects.requireNonNull(GameField.class.getClassLoader().getResourceAsStream("star.png"))); // аналогично с дотом (частью) змеи
+         slowlyDot = ImageIO.read(Objects.requireNonNull(GameField.class.getClassLoader().getResourceAsStream("slowly.png"))); // картинка для замедления
+         speedDot = ImageIO.read(Objects.requireNonNull(GameField.class.getClassLoader().getResourceAsStream("speed.png"))); // картинка для ускорения
+         backendGame = ImageIO.read(Objects.requireNonNull(GameField.class.getClassLoader().getResourceAsStream("backendGame.png"))); // картинка для задника игры
+         gameOver = ImageIO.read(Objects.requireNonNull(GameField.class.getClassLoader().getResourceAsStream("gameOver.png"))); // заставка конца игры
+         borderIcon = ImageIO.read(Objects.requireNonNull(GameField.class.getClassLoader().getResourceAsStream("borderIcon.png"))); // картинка для бордюра
     }
 
     @Override
@@ -240,6 +235,7 @@ public class GameField extends JPanel implements ActionListener {
          g.setFont(f); // шрифт отрисовки
          g.drawString(gameOver, 90, SIZE/2 + 15); // отрисовываем гейм овер в заданных координатах
          try {
+             BufferedWriter fileWriter = new BufferedWriter(new FileWriter(url, true)); // для записи результата игры
              fileWriter.write(score + "\r\n"); // записываем результат
              fileWriter.flush();
          } catch (IOException e) {
@@ -395,7 +391,7 @@ public class GameField extends JPanel implements ActionListener {
         }
     }
 
-    @Override
+
     public void actionPerformed(ActionEvent e) { // метод, вызываемвый при прослушивании
         if(inGame) { // если в игре
             checkCollisions(); // проверяем, не встретилась ли змея с препятствием
